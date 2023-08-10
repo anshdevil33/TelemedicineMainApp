@@ -1,0 +1,679 @@
+2023-08-10 09:11 INFO com.example.TeleMedicine.TeleMedicineApplication Starting TeleMedicineApplication using Java 1.8.0_202 on HHCL-IT-12778 with PID 8380 (C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine\target\classes started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:11 DEBUG com.example.TeleMedicine.TeleMedicineApplication Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:11 INFO com.example.TeleMedicine.TeleMedicineApplication No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:11 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 09:11 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 09:11 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:11 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:11 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1092 (http)
+2023-08-10 09:11 INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-08-10 09:11 INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-08-10 09:11 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-08-10 09:11 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2310 ms
+2023-08-10 09:11 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:11 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+2023-08-10 09:11 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:11 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:11 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1092 (http) with context path ''
+2023-08-10 09:11 INFO com.example.TeleMedicine.TeleMedicineApplication Started TeleMedicineApplication in 5.402 seconds (JVM running for 6.52)
+2023-08-10 09:11 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:11 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 8916 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:11 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:11 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:11 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:11 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:11 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:11 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:12 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:12 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.348 seconds (JVM running for 7.014)
+2023-08-10 09:12 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:12 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:14 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:14 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 3180 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:14 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:14 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:14 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:14 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:14 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:14 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:14 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:14 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 6.038 seconds (JVM running for 7.409)
+2023-08-10 09:14 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:14 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:17 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 62 class path changes (0 additions, 2 deletions, 60 modifications)
+2023-08-10 09:17 INFO org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:17 INFO com.example.TeleMedicine.TeleMedicineApplication Starting TeleMedicineApplication using Java 1.8.0_202 on HHCL-IT-12778 with PID 8380 (C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine\target\classes started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:17 DEBUG com.example.TeleMedicine.TeleMedicineApplication Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:17 INFO com.example.TeleMedicine.TeleMedicineApplication No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:17 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:17 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:17 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1092 (http)
+2023-08-10 09:17 INFO org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-08-10 09:17 INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-08-10 09:17 INFO org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-08-10 09:17 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 446 ms
+2023-08-10 09:17 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:17 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2023-08-10 09:17 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1092 (http) with context path ''
+2023-08-10 09:17 INFO com.example.TeleMedicine.TeleMedicineApplication Started TeleMedicineApplication in 0.937 seconds (JVM running for 350.187)
+2023-08-10 09:17 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2023-08-10 09:17 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:17 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 2504 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:17 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:17 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:17 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:17 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:17 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:17 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.628 seconds (JVM running for 6.935)
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:17 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:23 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:23 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 18884 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:23 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:23 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:23 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:23 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:23 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:23 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:23 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:23 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 9.616 seconds (JVM running for 10.898)
+2023-08-10 09:23 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:23 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:25 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:25 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 15440 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:25 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:25 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:25 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:25 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:25 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:25 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.232 seconds (JVM running for 6.554)
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:25 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:25 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 14432 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:25 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:25 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:25 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:25 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:25 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:25 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.596 seconds (JVM running for 6.816)
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:25 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:27 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:27 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 2388 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:27 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:27 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:27 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:27 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:27 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:27 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:27 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:27 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.495 seconds (JVM running for 6.796)
+2023-08-10 09:27 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:27 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:28 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:28 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 19188 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:28 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:28 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:28 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:28 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:28 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:28 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.287 seconds (JVM running for 6.525)
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:28 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:28 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 17216 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:28 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:28 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:28 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:28 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:28 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:28 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.206 seconds (JVM running for 6.461)
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:28 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:29 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:29 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 14984 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:29 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:29 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:29 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:29 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:29 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:29 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:29 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:29 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 6.399 seconds (JVM running for 7.65)
+2023-08-10 09:29 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:29 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:33 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:33 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 16648 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:33 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:33 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:33 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:33 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:33 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:33 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:33 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:33 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.359 seconds (JVM running for 6.615)
+2023-08-10 09:33 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:33 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:36 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:36 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 17608 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:36 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:36 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:36 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:36 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:36 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:36 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:36 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:36 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 9.293 seconds (JVM running for 10.663)
+2023-08-10 09:36 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:36 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:37 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:37 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 16468 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:37 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:37 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:37 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:37 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:37 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:37 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:37 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:37 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.487 seconds (JVM running for 6.713)
+2023-08-10 09:37 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:37 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:37 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:37 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 18508 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:37 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:37 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:38 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:38 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:38 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:38 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.447 seconds (JVM running for 6.655)
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:38 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:38 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 8300 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:38 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:38 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:38 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:38 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:38 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:38 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.428 seconds (JVM running for 6.753)
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:38 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:39 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:39 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 16136 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:39 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:39 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:39 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:39 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:39 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:39 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:39 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:39 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.542 seconds (JVM running for 6.882)
+2023-08-10 09:39 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:39 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:40 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:40 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 17856 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:40 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:40 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:40 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:40 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:40 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:40 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:40 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:40 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.541 seconds (JVM running for 6.804)
+2023-08-10 09:40 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:40 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:40 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:40 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 12400 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:40 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:40 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:40 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:40 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:40 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:41 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:41 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:41 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.359 seconds (JVM running for 6.648)
+2023-08-10 09:41 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:41 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:41 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:41 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 16592 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:41 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:41 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:41 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:41 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:41 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:41 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:41 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:41 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.59 seconds (JVM running for 6.867)
+2023-08-10 09:42 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:42 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:42 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:42 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 3872 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:42 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:42 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:42 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:42 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:42 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:42 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:42 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:42 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.446 seconds (JVM running for 6.803)
+2023-08-10 09:42 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:42 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:43 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:43 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 5596 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:43 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:43 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:43 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:43 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:43 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:43 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:43 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:43 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.384 seconds (JVM running for 6.673)
+2023-08-10 09:43 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:43 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:46 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:46 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 10232 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:46 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:46 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:46 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:46 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:46 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:46 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:46 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:46 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.576 seconds (JVM running for 6.853)
+2023-08-10 09:46 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:46 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:48 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:48 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 18364 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:48 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:48 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:48 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:48 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:48 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:48 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.332 seconds (JVM running for 6.566)
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:48 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:48 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 17752 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:48 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:48 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:48 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:48 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:48 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:48 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.344 seconds (JVM running for 6.553)
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:48 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:49 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:49 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 9584 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:49 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:49 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:49 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:49 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:49 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:49 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:49 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:49 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.374 seconds (JVM running for 6.639)
+2023-08-10 09:50 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:50 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:50 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:50 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 16512 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:50 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:50 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:50 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:50 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:50 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:50 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:50 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:50 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.407 seconds (JVM running for 6.658)
+2023-08-10 09:50 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:50 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:55 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:55 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 14260 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:55 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:55 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:55 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:55 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:55 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:55 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:55 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:55 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 6.193 seconds (JVM running for 7.629)
+2023-08-10 09:55 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:55 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:56 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:56 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 14676 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:56 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:56 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:56 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:56 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:56 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:56 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:56 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:56 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 6.148 seconds (JVM running for 7.454)
+2023-08-10 09:56 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:56 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:57 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:57 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 18864 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:57 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:57 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:57 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:57 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:57 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:57 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:57 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:57 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.377 seconds (JVM running for 6.628)
+2023-08-10 09:57 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:57 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:58 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:58 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 17660 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:58 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:58 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:58 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:58 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:58 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:58 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:58 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:58 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.461 seconds (JVM running for 6.73)
+2023-08-10 09:58 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:58 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 09:59 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 09:59 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 8984 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 09:59 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 09:59 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 09:59 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 09:59 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-10 09:59 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 09:59 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 09:59 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 09:59 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.046 seconds (JVM running for 6.417)
+2023-08-10 09:59 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 09:59 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2023-08-10 10:00 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/org/json/json/20201115/json-20201115.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/upendra.bellamkonda/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-10 10:00 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Starting TeleMedicineApplicationTests using Java 1.8.0_202 on HHCL-IT-12778 with PID 940 (started by upendra.bellamkonda in C:\Users\upendra.bellamkonda\Downloads\TeleMedicineApp\TeleMedicine)
+2023-08-10 10:00 DEBUG com.example.TeleMedicine.TeleMedicineApplicationTests Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-08-10 10:00 INFO com.example.TeleMedicine.TeleMedicineApplicationTests No active profile set, falling back to 1 default profile: "default"
+2023-08-10 10:00 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-10 10:00 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+2023-08-10 10:00 INFO com.example.TeleMedicine.SimpleCORSFilter SimpleCORSFilter init
+2023-08-10 10:00 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2023-08-10 10:00 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2023-08-10 10:00 INFO com.example.TeleMedicine.TeleMedicineApplicationTests Started TeleMedicineApplicationTests in 5.628 seconds (JVM running for 6.854)
+2023-08-10 10:00 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2023-08-10 10:00 INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
